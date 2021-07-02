@@ -11,7 +11,6 @@ const Container = styled.div`
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  /* border: 1px solid dodgerblue; */
 
   @media (min-width: 720px) {
     width: 620px;
@@ -19,18 +18,14 @@ const Container = styled.div`
 `;
 
 const HeaderWrapper = styled.div`
-  /* margin-bottom: 20px; */
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* border: 1px solid black; */
 `;
 
 const IconImage = styled.img`
   margin-left: 12px;
   width: 20px;
   height: 20px;
-  /* border: 1px dashed green; */
 `;
 
 const Title = styled.h3`
@@ -39,7 +34,6 @@ const Title = styled.h3`
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   color: #414141;
-  /* border: 1px dashed green; */
 `;
 
 const BottomWrapper = styled.div`
@@ -56,7 +50,6 @@ const Subtitle = styled.h3`
   font-family: "Open Sans", sans-serif;
   color: #414141;
   opacity: 0.6;
-  /* border: 1px dashed green; */
 `;
 
 export default function ListItem(props) {

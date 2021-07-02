@@ -11,7 +11,6 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   background: #f1f5f8;
-  /* border: 2px solid lightcoral; */
 `;
 
 const Title = styled.h1`
@@ -21,7 +20,6 @@ const Title = styled.h1`
   font-family: "Great Vibes", cursive;
   text-align: center;
   color: #c59d5f;
-  /* border: 1px dashed green; */
 
   @media (min-width: 720px) {
     width: 620px;
