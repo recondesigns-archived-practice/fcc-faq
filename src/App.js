@@ -38,12 +38,6 @@ export default function App() {
         const { title, subtitle } = faq;
         return <ListItem title={title} subtitle={subtitle} />;
       })}
-      <ListItem
-        title={"Do you accept all major credit cards?"}
-        subtitle={
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat, magni numquam repellat reprehenderit."
-        }
-      />
     </Container>
   );
 }
